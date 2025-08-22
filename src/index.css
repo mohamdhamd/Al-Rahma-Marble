@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&family=Cairo:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-off-white text-brand-dark font-sans;
+}
+
+h1, h2, h3 {
+  @apply font-serif;
+}
